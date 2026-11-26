@@ -1,0 +1,11 @@
+name = "tvacha-ai-web"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+[assets]
+directory = "./public"
+binding = "ASSETS"
+# Secrets (never commit): wrangler secret put AI_API_KEY
+[vars]
+AI_PROVIDER = "openai-compatible"   # or "anthropic"
+AI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai"
+AI_MODEL = "gemini-3.8-flash"

@@ -1,0 +1,5 @@
+{"review_status":"unreviewed","emergency":[
+{"label":"Difficulty breathing or wheezing","pattern":"breath|wheez"},
+{"label":"Swelling of face, lips, tongue or throat","pattern":"(face|lip|tongue|throat).{0,20}swell|swell.{0,20}(face|lip|tongue|throat)"},
+{"label":"Rapidly worsening rash with fever","pattern":"fever.{0,40}(spread|worse|rapid)|(spread|worse|rapid).{0,40}fever"},
+{"label":"Severe, unbearable pain","pattern":"severe pain|unbearable|excruciating"}]}
